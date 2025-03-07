@@ -1,0 +1,13 @@
+.campos{
+    height: 30px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 1600px;
+}
+button{
+    width: 120px;
+    height: 50px;
+}
