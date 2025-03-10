@@ -1,13 +1,23 @@
-.campos{
-    height: 30px;
+input{
+    height: 40px;
+    width: 320px;
 }
 .botao{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     height: 50px;
     width: 1600px;
 }
 button{
     width: 120px;
     height: 50px;
+}
+.fundo{
+    display: flex;
+    background-image: url(https://img.freepik.com/vetores-premium/geometria-de-ouro-azul-quadro-de-fronteira-de-certificado-moderno_257504-424.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 800px;
+    width: 1500px;
 }
