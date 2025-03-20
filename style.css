@@ -28,6 +28,7 @@ button{
 .texto1{
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 .texto2{
     display: flex;
