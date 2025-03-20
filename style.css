@@ -20,8 +20,16 @@ button{
     height: 800px;
     width: 1500px;
 }
-.texto{
+.titulo{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+.texto1{
+    display: flex;
+    justify-content: center;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
 }
