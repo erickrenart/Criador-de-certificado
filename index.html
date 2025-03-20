@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Gerador de Certificados</title>
 </head>
 <body>
     <div class="campos">
         <form action="">
-            <input type="text" name="" placeholder= "Nome" id="">
-            <input type="text" name="" placeholder= "Cpf" id="">
-            <input type="text" name="" placeholder= "Curso" id="">
-            <input type="text" name="" placeholder= "Duração" id="">
+            <input type="text" name="nome" placeholder= "Nome" id="nome">
+            <input type="text" name="cpf" placeholder= "Cpf" id="cpf">
+            <input type="text" name="curso" placeholder= "Curso" id="curso">
+            <input type="text" name="duracao" placeholder= "Duração" id="duracao">
         </form>
     </div>
     <div class="botao">
-        <button>
+        <button onclick="atualizartexto()">
             <h3>Enviar</h3>
         </button>
     </div>
     <div class="certificado">
         <div class="fundo">
-            <div class="texto">
+            <div class="titulo">
                 <h1>CERTIFICADO</h1>
+            </div>
+            <div class="texto1">
+                <h3>Condecoramos o(a) estudante <span id="pao1">_______</span>, cujo cpf <span id="pao2">_______</span></h3>
+            </div>
+            <div class="texto2">
+                <h3>Por completar o curso de <span id="pao3">_______</span>, com duração de <span id="pao4">_______</span></h3>
             </div>
         </div>
     </div>
